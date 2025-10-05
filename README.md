@@ -1,3 +1,5 @@
+# Live url - <a id="https://react-company-app.netlify.app/">React-Company-App</a>
+
 # Technologies used for developing this 
 ## React - Frameword used
 ## Tailwind Css - For styling
