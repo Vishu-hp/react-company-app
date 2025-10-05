@@ -88,7 +88,7 @@ const AppContext = ({ children }: { children: any }) => {
 export const useAppContext = (): AppContextType => {
   const context = useContext(AppContextValue);
   if (!context) {
-    throw new Error("useCompany must be used within a CompanyProvider");
+    throw new Error("useAppContext must be used within a AppProvider");
   }
   return context;
 };
