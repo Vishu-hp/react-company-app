@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, ReactNode } from "react";
+import { createContext, useContext, useState } from "react";
 import type { Company } from "../utils/interface";
 
 type SearchType = {
@@ -22,7 +22,7 @@ interface AppContextType {
 
 const AppContextValue = createContext<AppContextType | undefined>(undefined);
 
-const AppContext = ({ children }: { children: ReactNode }) => {
+const AppContext = ({ children }: { children: any }) => {
   const [page, setPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState<number>(0);
   const [companies, setCompanies] = useState<Company[]>([]);

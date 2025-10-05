@@ -6,7 +6,7 @@ import { useAppContext } from "../context/AppContext";
 const Company = () => {
   const { addCompanies, companies } = useAppContext();
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  // const [error, setError] = useState("");
 
   useEffect(() => {
     setLoading(true);
@@ -30,9 +30,10 @@ const Company = () => {
     );
   }
 
-  if (error?.length) {
-    return <h2>{error}</h2>;
-  }
+  // FOR HANDLING ERRORS
+  // if (error?.length) {
+  //   return <h2>{error}</h2>;
+  // }
 };
 
 export default Company;
