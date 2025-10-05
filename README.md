@@ -5,6 +5,12 @@
 ## Context Api - For managing State
 ## React Icons - For icons
 
+# Features
+## Dual Theme
+## Filtering allowed based on fields in both grid and list
+## Implemented pagination which can handle 1000 records very easily
+## Added grid and list toogle
+
 # App 
 <img width="1918" height="1082" alt="1" src="https://github.com/user-attachments/assets/56000db8-66a2-4c31-9788-255c69d5dc43" />
 <img width="1918" height="1061" alt="2" src="https://github.com/user-attachments/assets/483cd25d-aaaa-4595-b1a7-a0cbd378485c" />
