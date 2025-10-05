@@ -1,4 +1,4 @@
-# Live url - <a id="https://react-company-app.netlify.app/">React-Company-App</a>
+# [Live url](https://react-company-app.netlify.app/)
 
 # Technologies used for developing this 
 ## React - Frameword used
